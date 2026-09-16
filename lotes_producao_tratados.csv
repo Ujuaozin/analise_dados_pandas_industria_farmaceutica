@@ -1,0 +1,48 @@
+lote_id,linha_producao,temperatura_reator_c,rendimento_pct,unidades_produzidas,data_inicio,status_aprovacao,ano,mes,dia_semana,unidades_efetivas
+LT-1002,Linha_C,36.03,99.5,12500.0,2026-01-03,Reprovado,2026,1,Saturday,12437.5
+LT-1006,Linha_A,36.51,99.5,8000.0,2026-01-07,Aprovado,2026,1,Wednesday,7960.0
+LT-1007,Linha_C,36.22,92.1,12500.0,2026-01-08,Aprovado,2026,1,Thursday,11512.5
+LT-1008,Linha_B,34.8,92.1,10000.0,2026-01-09,Reprovado,2026,1,Friday,9210.0
+LT-1012,Linha_C,36.31,78.0,12500.0,2026-01-13,Em Quarentena,2026,1,Tuesday,9750.0
+LT-1013,Linha_A,36.98,85.4,10000.0,2026-01-14,Aprovado,2026,1,Wednesday,8540.0
+LT-1019,Linha_A,36.47,92.1,8000.0,2026-01-20,Aprovado,2026,1,Tuesday,7368.0
+LT-1022,Linha_A,36.27,85.4,10000.0,2026-01-23,Aprovado,2026,1,Friday,8540.0
+LT-1023,Linha_B,36.86,99.5,15000.0,2026-01-24,Aprovado,2026,1,Saturday,14925.0
+LT-1024,Linha_B,36.46,92.1,8000.0,2026-01-25,Em Quarentena,2026,1,Sunday,7368.0
+LT-1028,Linha_B,37.45,78.0,8000.0,2026-01-29,Aprovado,2026,1,Thursday,6240.0
+LT-1029,Linha_A,35.41,99.5,10000.0,2026-01-30,Aprovado,2026,1,Friday,9950.0
+LT-1031,Linha_A,34.82,85.4,12500.0,2026-02-01,Aprovado,2026,2,Sunday,10675.0
+LT-1034,Não Informado,35.31,99.5,15000.0,2026-02-04,Aprovado,2026,2,Wednesday,14925.0
+LT-1035,Linha_C,35.82,99.5,15000.0,2026-02-05,Em Quarentena,2026,2,Thursday,14925.0
+LT-1038,Linha_B,34.64,99.5,15000.0,2026-02-08,Reprovado,2026,2,Sunday,14925.0
+LT-1041,Linha_B,37.07,99.5,8000.0,2026-02-11,Aprovado,2026,2,Wednesday,7960.0
+LT-1044,Linha_A,35.56,78.0,15000.0,2026-02-14,Reprovado,2026,2,Saturday,11700.0
+LT-1046,Linha_A,37.48,99.5,12500.0,2026-02-16,Em Quarentena,2026,2,Monday,12437.5
+LT-1048,Linha_B,36.77,92.1,12500.0,2026-02-18,Aprovado,2026,2,Wednesday,11512.5
+LT-1049,Linha_A,38.07,99.5,8000.0,2026-02-19,Em Quarentena,2026,2,Thursday,7960.0
+LT-1050,Não Informado,34.57,92.1,10000.0,2026-02-20,Aprovado,2026,2,Friday,9210.0
+LT-1052,Linha_C,36.81,78.0,12500.0,2026-02-22,Aprovado,2026,2,Sunday,9750.0
+LT-1053,Linha_C,37.44,85.4,15000.0,2026-02-23,Aprovado,2026,2,Monday,12810.0
+LT-1055,Linha_C,34.92,78.0,15000.0,2026-02-25,Aprovado,2026,2,Wednesday,11700.0
+LT-1056,Linha_A,37.13,99.5,8000.0,2026-02-26,Em Quarentena,2026,2,Thursday,7960.0
+LT-1057,Linha_A,36.86,92.1,15000.0,2026-02-27,Aprovado,2026,2,Friday,13815.0
+LT-1059,Linha_A,36.92,92.1,10000.0,2026-03-01,Em Quarentena,2026,3,Sunday,9210.0
+LT-1061,Linha_A,36.78,92.1,15000.0,2026-03-03,Aprovado,2026,3,Tuesday,13815.0
+LT-1066,Linha_A,35.07,85.4,10000.0,2026-03-08,Aprovado,2026,3,Sunday,8540.0
+LT-1067,Linha_C,37.29,99.5,8000.0,2026-03-09,Aprovado,2026,3,Monday,7960.0
+LT-1069,Não Informado,37.44,85.4,8000.0,2026-03-11,Em Quarentena,2026,3,Wednesday,6832.0
+LT-1071,Linha_A,35.52,92.1,12500.0,2026-03-13,Aprovado,2026,3,Friday,11512.5
+LT-1072,Linha_A,37.66,85.4,10000.0,2026-03-14,Aprovado,2026,3,Saturday,8540.0
+LT-1077,Linha_A,35.6,85.4,10000.0,2026-03-19,Em Quarentena,2026,3,Thursday,8540.0
+LT-1080,Linha_C,36.41,85.4,10000.0,2026-03-22,Aprovado,2026,3,Sunday,8540.0
+LT-1090,Linha_A,35.21,92.1,15000.0,2026-04-01,Aprovado,2026,4,Wednesday,13815.0
+LT-1091,Linha_C,37.08,78.0,10000.0,2026-04-02,Aprovado,2026,4,Thursday,7800.0
+LT-1094,Linha_C,37.07,85.4,10000.0,2026-04-05,Reprovado,2026,4,Sunday,8540.0
+LT-1097,Linha_B,34.68,99.5,8000.0,2026-04-08,Aprovado,2026,4,Wednesday,7960.0
+LT-1100,Linha_A,36.76,85.4,15000.0,2026-04-11,Reprovado,2026,4,Saturday,12810.0
+LT-1106,Linha_B,36.57,99.5,15000.0,2026-04-17,Em Quarentena,2026,4,Friday,14925.0
+LT-1108,Linha_A,36.93,92.1,15000.0,2026-04-19,Aprovado,2026,4,Sunday,13815.0
+LT-1111,Linha_A,37.76,99.5,15000.0,2026-04-22,Em Quarentena,2026,4,Wednesday,14925.0
+LT-1112,Linha_C,34.85,85.4,12500.0,2026-04-23,Aprovado,2026,4,Thursday,10675.0
+LT-1117,Linha_A,41.12,92.1,15000.0,2026-04-28,Aprovado,2026,4,Tuesday,13815.0
+LT-1118,Linha_C,37.19,92.1,8000.0,2026-04-29,Aprovado,2026,4,Wednesday,7368.0

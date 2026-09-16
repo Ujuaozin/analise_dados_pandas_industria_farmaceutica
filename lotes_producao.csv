@@ -1,0 +1,124 @@
+lote_id,linha_producao,temperatura_reator_c,rendimento_pct,unidades_produzidas,data_inicio,status_aprovacao
+LT-1000,Linha_B,35.66,150.0,15000,2026-01-01,Aprovado
+LT-1001,,36.11,150.0,invalid_read,2026-01-02,Aprovado
+LT-1002,Linha_C,36.03,99.5,12500,2026-01-03,Reprovado
+LT-1003,Linha_B,34.74,78.0,invalid_read,2026-01-04,Aprovado
+LT-1004,Linha_A,36.86,,12500,2026-01-05,Aprovado
+LT-1005,Linha_A,36.81,,12500,2026-01-06,Aprovado
+LT-1006,Linha_A,36.51,99.5,8000,2026-01-07,Aprovado
+LT-1007,Linha_C,36.22,92.1,12500,2026-01-08,Aprovado
+LT-1008,Linha_B,34.8,92.1,10000,2026-01-09,Reprovado
+LT-1009,Linha_C,36.0,,15000,2026-01-10,Aprovado
+LT-1010,Linha_A,36.09,,15000,2026-01-11,Aprovado
+LT-1011,,35.54,150.0,invalid_read,2026-01-12,Aprovado
+LT-1012,Linha_C,36.31,78.0,12500,2026-01-13,Em Quarentena
+LT-1013,Linha_A,36.98,85.4,10000,2026-01-14,Aprovado
+LT-1014,Linha_A,38.76,92.1,invalid_read,2026-01-15,Aprovado
+LT-1015,Linha_A,36.71,,8000,2026-01-16,Reprovado
+LT-1016,Linha_A,36.81,150.0,invalid_read,2026-01-17,Em Quarentena
+LT-1017,Linha_B,36.41,-5.0,invalid_read,2026-01-18,Em Quarentena
+LT-1018,Linha_B,34.2,150.0,12500,2026-01-19,Reprovado
+LT-1019,Linha_A,36.47,92.1,8000,2026-01-20,Aprovado
+LT-1020,Linha_B,36.57,92.1,invalid_read,2026-01-21,Aprovado
+LT-1021,Linha_A,39.46,150.0,10000,2026-01-22,Reprovado
+LT-1022,Linha_A,36.27,85.4,10000,2026-01-23,Aprovado
+LT-1023,Linha_B,36.86,99.5,15000,2026-01-24,Aprovado
+LT-1024,Linha_B,36.46,92.1,8000,2026-01-25,Em Quarentena
+LT-1025,Linha_C,35.1,150.0,8000,2026-01-26,Aprovado
+LT-1026,Linha_A,37.87,,15000,2026-01-27,Aprovado
+LT-1027,Linha_B,37.4,150.0,invalid_read,2026-01-28,Aprovado
+LT-1028,Linha_B,37.45,78.0,8000,2026-01-29,Aprovado
+LT-1029,Linha_A,35.41,99.5,10000,2026-01-30,Aprovado
+LT-1030,Linha_B,38.18,-5.0,10000,2026-01-31,Aprovado
+LT-1031,Linha_A,34.82,85.4,12500,2026-02-01,Aprovado
+LT-1032,Linha_A,37.2,-5.0,8000,2026-02-02,Aprovado
+LT-1033,Linha_C,39.13,99.5,invalid_read,2026-02-03,Aprovado
+LT-1034,,35.31,99.5,15000,2026-02-04,Aprovado
+LT-1035,Linha_C,35.82,99.5,15000,2026-02-05,Em Quarentena
+LT-1036,Linha_A,36.62,-5.0,invalid_read,2026-02-06,Aprovado
+LT-1037,Linha_A,35.9,,12500,2026-02-07,Aprovado
+LT-1038,Linha_B,34.64,99.5,15000,2026-02-08,Reprovado
+LT-1039,Linha_B,36.58,150.0,8000,2026-02-09,Aprovado
+LT-1040,Linha_A,35.23,-5.0,12500,2026-02-10,Em Quarentena
+LT-1041,Linha_B,37.07,99.5,8000,2026-02-11,Aprovado
+LT-1042,Linha_A,35.4,150.0,10000,2026-02-12,Em Quarentena
+LT-1043,Linha_C,38.36,,12500,2026-02-13,Aprovado
+LT-1044,Linha_A,35.56,78.0,15000,2026-02-14,Reprovado
+LT-1045,Linha_B,36.11,,12500,2026-02-15,Aprovado
+LT-1046,Linha_A,37.48,99.5,12500,2026-02-16,Em Quarentena
+LT-1047,Linha_B,35.02,-5.0,12500,2026-02-17,Aprovado
+LT-1048,Linha_B,36.77,92.1,12500,2026-02-18,Aprovado
+LT-1049,Linha_A,38.07,99.5,8000,2026-02-19,Em Quarentena
+LT-1050,,34.57,92.1,10000,2026-02-20,Aprovado
+LT-1051,Linha_C,36.72,150.0,invalid_read,2026-02-21,Aprovado
+LT-1052,Linha_C,36.81,78.0,12500,2026-02-22,Aprovado
+LT-1053,Linha_C,37.44,85.4,15000,2026-02-23,Aprovado
+LT-1054,Linha_B,35.02,,12500,2026-02-24,Aprovado
+LT-1055,Linha_C,34.92,78.0,15000,2026-02-25,Aprovado
+LT-1056,Linha_A,37.13,99.5,8000,2026-02-26,Em Quarentena
+LT-1057,Linha_A,36.86,92.1,15000,2026-02-27,Aprovado
+LT-1058,Linha_A,36.8,,invalid_read,2026-02-28,Aprovado
+LT-1059,Linha_A,36.92,92.1,10000,2026-03-01,Em Quarentena
+LT-1060,Linha_B,35.68,-5.0,15000,2026-03-02,Reprovado
+LT-1061,Linha_A,36.78,92.1,15000,2026-03-03,Aprovado
+LT-1062,Linha_C,36.85,-5.0,10000,2026-03-04,Aprovado
+LT-1063,Linha_B,35.64,150.0,invalid_read,2026-03-05,Aprovado
+LT-1064,Linha_A,38.74,,12500,2026-03-06,Aprovado
+LT-1065,Linha_B,37.07,,15000,2026-03-07,Aprovado
+LT-1066,Linha_A,35.07,85.4,10000,2026-03-08,Aprovado
+LT-1067,Linha_C,37.29,99.5,8000,2026-03-09,Aprovado
+LT-1068,Linha_A,35.33,-5.0,10000,2026-03-10,Aprovado
+LT-1069,,37.44,85.4,8000,2026-03-11,Em Quarentena
+LT-1070,Linha_C,37.89,92.1,invalid_read,2026-03-12,Em Quarentena
+LT-1071,Linha_A,35.52,92.1,12500,2026-03-13,Aprovado
+LT-1072,Linha_A,37.66,85.4,10000,2026-03-14,Aprovado
+LT-1073,Linha_C,37.0,,15000,2026-03-15,Aprovado
+LT-1074,Linha_C,37.49,92.1,invalid_read,2026-03-16,Reprovado
+LT-1075,Linha_C,38.78,150.0,10000,2026-03-17,Aprovado
+LT-1076,Linha_C,36.21,150.0,15000,2026-03-18,Aprovado
+LT-1077,Linha_A,35.6,85.4,10000,2026-03-19,Em Quarentena
+LT-1078,Linha_B,35.43,-5.0,8000,2026-03-20,Reprovado
+LT-1079,Linha_A,35.52,-5.0,10000,2026-03-21,Em Quarentena
+LT-1080,Linha_C,36.41,85.4,10000,2026-03-22,Aprovado
+LT-1081,Linha_B,36.91,-5.0,10000,2026-03-23,Aprovado
+LT-1082,Linha_A,36.83,,invalid_read,2026-03-24,Aprovado
+LT-1083,Linha_A,37.49,,10000,2026-03-25,Em Quarentena
+LT-1084,Linha_A,36.52,-5.0,15000,2026-03-26,Reprovado
+LT-1085,Linha_A,38.24,150.0,8000,2026-03-27,Aprovado
+LT-1086,Linha_C,36.18,-5.0,8000,2026-03-28,Aprovado
+LT-1087,Linha_B,39.76,,10000,2026-03-29,Aprovado
+LT-1088,Linha_C,37.25,78.0,invalid_read,2026-03-30,Reprovado
+LT-1089,Linha_B,35.47,99.5,invalid_read,2026-03-31,Em Quarentena
+LT-1090,Linha_A,35.21,92.1,15000,2026-04-01,Aprovado
+LT-1091,Linha_C,37.08,78.0,10000,2026-04-02,Aprovado
+LT-1092,Linha_C,36.23,-5.0,8000,2026-04-03,Aprovado
+LT-1093,Linha_B,37.36,150.0,invalid_read,2026-04-04,Em Quarentena
+LT-1094,Linha_C,37.07,85.4,10000,2026-04-05,Reprovado
+LT-1095,Linha_B,36.41,-5.0,invalid_read,2026-04-06,Reprovado
+LT-1096,Linha_B,35.48,150.0,invalid_read,2026-04-07,Aprovado
+LT-1097,Linha_B,34.68,99.5,8000,2026-04-08,Aprovado
+LT-1098,Linha_A,35.96,-5.0,12500,2026-04-09,Aprovado
+LT-1099,Linha_A,37.53,,15000,2026-04-10,Aprovado
+LT-1100,Linha_A,36.76,85.4,15000,2026-04-11,Reprovado
+LT-1101,Linha_B,35.01,150.0,8000,2026-04-12,Reprovado
+LT-1102,Linha_A,36.71,150.0,invalid_read,2026-04-13,Em Quarentena
+LT-1103,Linha_B,36.96,150.0,10000,2026-04-14,Em Quarentena
+LT-1104,Linha_C,35.44,99.5,invalid_read,2026-04-15,Aprovado
+LT-1105,Linha_A,36.68,-5.0,8000,2026-04-16,Reprovado
+LT-1106,Linha_B,36.57,99.5,15000,2026-04-17,Em Quarentena
+LT-1107,Linha_C,35.13,92.1,invalid_read,2026-04-18,Reprovado
+LT-1108,Linha_A,36.93,92.1,15000,2026-04-19,Aprovado
+LT-1109,Linha_A,37.17,-5.0,10000,2026-04-20,Aprovado
+LT-1110,Linha_A,37.8,,15000,2026-04-21,Aprovado
+LT-1111,Linha_A,37.76,99.5,15000,2026-04-22,Em Quarentena
+LT-1112,Linha_C,34.85,85.4,12500,2026-04-23,Aprovado
+LT-1113,Linha_C,35.37,150.0,12500,2026-04-24,Aprovado
+LT-1114,Linha_B,37.12,150.0,12500,2026-04-25,Aprovado
+LT-1115,Linha_C,37.12,-5.0,15000,2026-04-26,Aprovado
+LT-1116,Linha_C,37.12,,8000,2026-04-27,Aprovado
+LT-1117,Linha_A,41.12,92.1,15000,2026-04-28,Aprovado
+LT-1118,Linha_C,37.19,92.1,8000,2026-04-29,Aprovado
+LT-1119,Linha_B,37.86,150.0,8000,2026-04-30,Aprovado
+LT-1000,Linha_B,35.66,150.0,15000,2026-01-01,Aprovado
+LT-1001,,36.11,150.0,invalid_read,2026-01-02,Aprovado
+LT-1002,Linha_C,36.03,99.5,12500,2026-01-03,Reprovado
