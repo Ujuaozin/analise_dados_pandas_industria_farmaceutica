@@ -17,6 +17,56 @@ A operação farmacêutica lida com parâmetros críticos de qualidade e rendime
 - **Variação por Dia da Semana:** Identificou-se que os lotes produzidos aos domingos apresentam o menor rendimento médio da fábrica (~87,3%), contra mais de 93% no meio da semana, indicando possível impacto de troca de turno ou escalas reduzidas.
 - **Temperatura vs. Rendimento:** A correlação calculada ficou próxima de zero (~0.07), indicando que a oscilação de temperatura observada nos reatores não é o fator linear causador da perda de rendimento.
 
-## Próximos Passos
-- Conexão da base tratada (`lotes_producao_tratados.csv`) com o Power BI.
-- Modelagem dimensional e criação de medidas em DAX.
+# 🏭 Dashboard de Controle de Produção e Qualidade Industrial (Power BI & DAX)
+
+Este projeto consiste em um dashboard executivo desenvolvido no Power BI voltado ao monitoramento operacional, eficiência de linhas fabris e controle de qualidade em ambiente industrial.
+
+O projeto foi construído sobre uma arquitetura em **Star Schema (Esquema Estrela)**, conectando dados brutos de chão de fábrica tratados via Python/Pandas a um modelo analítico robusto com medidas DAX customizadas.
+
+---
+
+## 📸 Visão Geral do Dashboard
+![Visão Geral do Dashboard](dashboard_preview.png)
+
+---
+
+## 🎯 Dores de Negócio Solucionadas
+
+Em indústrias de manufatura e processos contínuos, a tomada de decisão muitas vezes sofre com:
+- Dificuldade em rastrear a causa-raiz de quedas de rendimento entre turnos e dias da semana.
+- Falta de visibilidade em tempo real sobre lotes travados em quarentena vs. descarte por reprovação.
+- Ausência de métricas ponderadas, que distorcem o rendimento real dos lotes produzidos.
+
+O painel centraliza esses indicadores em uma interface executiva intuitiva e interativa.
+
+---
+
+## 🛠️ Modelagem de Dados & Arquitetura (Star Schema)
+
+A modelagem segue as melhores práticas de Business Intelligence:
+- **`fProducao` (Tabela Fato):** Registros granulares de ordens de produção, linha fabril, volume planejado, volume efetivo, temperatura de processo e status de aprovação.
+- **`dCalendario` (Tabela Dimensão):** Gerada via DAX (`CALENDAR`), permitindo análises contínuas de inteligência temporal com ordenação cronológica rigorosa de meses e dias da semana.
+- **`_Medidas`:** Tabela dedicada isolando a camada semântica e regras de cálculo.
+- **Relacionamento:** 1 para Muitos (1:*) com filtro unidirecional (`dCalendario[Data]` -> `fProducao[data_producao]`), assegurando performance e integridade referencial.
+
+---
+
+## 📐 Métricas Principais em DAX
+
+```dax
+// 1. Total Produzido (Volume total planejado/iniciado)
+Total Produzido = SUM(fProducao[quantidade_produzida])
+
+// 2. Total Efetivo (Volume real aproveitado após perdas)
+Total Efetivo = SUM(fProducao[quantidade_efetiva])
+
+// 3. Rendimento Real Ponderado (Evita a falácia da média das médias)
+Rendimento Real = 
+DIVIDE(
+    [Total Efetivo],
+    [Total Produzido],
+    0
+)
+
+// 4. Total de Lotes Auditados (Contagem única consistente)
+Total Lotes = DISTINCTCOUNT(fProducao[id_lote])
